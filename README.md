@@ -5,4 +5,4 @@ HTML & CSS developer<br>
 <b>Currently learning:</b> JavaScript, decompiling Flash 3D games
 <b>Hobbies:</b> Nostalgia, video games.
 
-<p style="color: yellow;"><i>"Patience is a key of happiness, and patience also has a door that fits within a key."</i></p>
+<i>"Patience is a key of happiness, and patience also has a door that fits within a key."</i>
