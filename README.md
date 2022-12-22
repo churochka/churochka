@@ -1,4 +1,4 @@
-# __/ About me
+# <i>__/ about me</i>
 
 HTML & CSS developer<br>
 Currently learning: JavaScript, decompiling Flash 3D games
