@@ -2,4 +2,7 @@
 
 13 years old<br>
 HTML & CSS developer<br>
-Currently learning: JavaScript, decompiling Flash 3D games
+<b>Currently learning:</b> JavaScript, decompiling Flash 3D games
+<b>Hobbies:</b> Nostalgia, video games.
+
+<p style="color: yellow;"><i>"Patience is a key of happiness, and patience also has a door that fits within a key."</i></p>
