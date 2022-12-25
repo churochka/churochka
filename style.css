@@ -2,37 +2,68 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(87, 167, 130);
+    color: white;
+    font-family: Calibri;
+    background: linear-gradient(270deg, #57a782, #26533e);
+    background-size: 400% 400%;
+    height: 100vh;
+    overflow: hidden;
+
+    -webkit-animation: gradientBackground 30s ease infinite;
+    -moz-animation: gradientBackground 30s ease infinite;
+    -o-animation: gradientBackground 30s ease infinite;
+    animation: gradientBackground 30s ease infinite;
+}
+
+@-webkit-keyframes gradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes gradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .box {
+    display: relative;
     width: 550px;
     height: 850px;
-    left: -50%;
-    top: -50%;
-    overflow: hidden;
-    background: rgb(59, 117, 88);
-}
-.box::before {
-    width: 550px;
-    height: 850px;
-    background: linear-gradient(0deg,rgb(87, 167, 130));
-    animation: radar 6s;
-}
-.box::after {
-    width: 550px;
-    height: 850px;
-    background: linear-gradient(0deg,rgb(87, 167, 130));
-    animation: radar 6s;
-    animation-delay: -3s;
-}
-@keyframes radar {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-.form {
-    width: 550px;
-    height: 850px;
-    inset: 2px;
+    border-radius: 12px;
+    background: rgb(34, 66, 51);
+    text-align: center;
 }
 
+a, a:hover {
+    color: white;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.fakeglow {
+    animation: fakeglow infinite 3s;
+}
+@keyframes fakeglow {
+    0% { opacity: .1; }
+    50% { opacity: .15; }
+    100% { opacity: .1; }
+}
+
+.bottomright {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
