@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 550px;
+    height: 850px;
+    left: -50%;
+    top: -50%;
+    overflow: hidden;
+}
+.box::before {
+    width: 550px;
+    height: 850px;
+    background: linear-gradient(0deg,rgb(87, 167, 130));
+    animation: radar 6s;
+}
+.box::after {
+    width: 550px;
+    height: 850px;
+    background: linear-gradient(0deg,rgb(87, 167, 130));
+    animation: radar 6s;
+    animation-delay: -3s;
+}
+@keyframes radar {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.form {
+    width: 550px;
+    height: 850px;
+    inset: 2px;
+}
+
