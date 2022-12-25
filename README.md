@@ -1,5 +1,5 @@
-# <i>__/ about me</i>
-
+<h1><i>      ___________</i><br>
+<i>__/ about me \___</i></h1>
 13 years old<br>
 HTML & CSS developer<br>
 <b>Currently learning:</b> JavaScript, decompiling Flash 3D games<br>
