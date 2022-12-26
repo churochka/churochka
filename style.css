@@ -62,8 +62,11 @@ a, a:hover {
     100% { opacity: .1; }
 }
 
-.bottomright {
+.bottomright, .christmas {
     position: fixed;
     bottom: 0;
     right: 0;
+}
+.christmas {
+    opacity: 0.1;
 }
